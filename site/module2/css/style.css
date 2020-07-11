@@ -1,28 +1,62 @@
-*{
-	box-sizing:border-box;
-	font-family:initial;
-	color: white;
+* {
+    box-sizing: border-box;
+    font-family: italic;
 }
-body{
-	background-image:url(c:users/vijay/coursera-test/covid.jpg);
-}
-h1{
-	text-align: center;
- 	color: red;
-}
-h2{
-	color: orange;
 
+body {
+    background-color: #086A87;
 }
-div {
+
+h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+section {
     border: 1px solid black;
     background-color: #282A2A;
     margin: 10px;
 }
 
-section,p{
-	background-color: gray;
+section>h2 {
+    float:right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 250px;
+    text-align: center;
+    font-style: Times;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
 }
+
+section.wilbur>h2 {
+    background-color: #76E51F;
+    color: white;
+}
+
+section.nation>h2 {
+    background-color: #76E51F;
+    color: white;
+}
+
+section.promise>h2 {
+    background-color: #76E51F;
+    color: white;
+}
+
+section>p {
+    padding: 40px 15px 15px 15px;
+    color: #DBA901;
+}
+
+.row {
+    width: 100%;
+}
+
 
 /* Desktop view options */
 
